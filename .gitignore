@@ -1,0 +1,41 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Odoo: codigo fuente de addons si se conserva
+.odoo-filestore/
+filestore/
+sessions/
+*.pid
+
+# Node y recursos generados
+node_modules/
+dist/
+coverage/
+
+# Secretos y temporales
+.env
+.env.*
+!.env.example
+credentials.*
+secrets.*
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
