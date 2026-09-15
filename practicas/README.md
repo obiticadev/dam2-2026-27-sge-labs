@@ -1,3 +1,3 @@
-# Practicas
+# Prácticas
 
-Entregas evaluables pequenas. Las soluciones completas tendran repositorio propio.
+Entregas evaluables pequeñas. Las soluciones completas tendrán repositorio propio.

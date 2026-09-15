@@ -17,7 +17,7 @@ env/
 .coverage
 htmlcov/
 
-# Odoo: codigo fuente de addons si se conserva
+# Odoo: el código fuente de los addons sí se conserva
 .odoo-filestore/
 filestore/
 sessions/

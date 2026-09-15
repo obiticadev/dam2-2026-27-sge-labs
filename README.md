@@ -1,14 +1,14 @@
-# Laboratorios de Sistemas de Gestion Empresarial 2026-27
+# Laboratorios de Sistemas de Gestión Empresarial 2026-27
 
-Ejercicios de clase y practicas pequenas de implantacion, integracion y desarrollo
-para sistemas de gestion empresarial.
+Ejercicios de clase y prácticas pequeñas de implantación, integración y desarrollo
+para sistemas de gestión empresarial.
 
 ## Estructura
 
 - `tareas/`: ejercicios cotidianos organizados por unidad.
-- `practicas/`: modulos y entregas que no necesiten repositorio propio.
+- `practicas/`: módulos y entregas que no necesiten repositorio propio.
 
-Se conserva el codigo de los modulos y su configuracion reproducible, pero no las
-bases de datos, filestore, caches ni instalaciones locales del ERP.
+Se conserva el código de los módulos y su configuración reproducible, pero no las
+bases de datos, filestore, cachés ni instalaciones locales del ERP.
 
 [Volver al repositorio central](https://github.com/obiticadev/dam2-2026-27)
