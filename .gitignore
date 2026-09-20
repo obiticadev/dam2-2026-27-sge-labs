@@ -1,8 +1,19 @@
-# IDE
+# IDE: estado local
 .idea/
-.vscode/
 *.iml
 *.iws
+*.swp
+*.swo
+*.swn
+*~
+.history/
+
+# VS Code: solo configuracion compartible conocida
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Python
 __pycache__/
@@ -11,31 +22,105 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
+.conda/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
 .coverage
+.coverage.*
 htmlcov/
+coverage.xml
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
 
-# Odoo: el código fuente de los addons sí se conserva
+# Odoo: el codigo fuente de los addons si se conserva
 .odoo-filestore/
 filestore/
 sessions/
 *.pid
+odoo.conf
+odoo.local.conf
+odoo.*.local.conf
+!odoo.conf.example
+!odoo.conf.sample
+!odoo.conf.template
+
+# Bases de datos, copias y volumenes locales del ERP
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+backups/
+dumps/
+postgres-data/
+odoo-data/
+.pgdata/
+!**/fixtures/**/*.db
+!**/fixtures/**/*.sqlite
+!**/fixtures/**/*.sqlite3
+!**/testdata/**/*.db
+!**/testdata/**/*.sqlite
+!**/testdata/**/*.sqlite3
 
 # Node y recursos generados
 node_modules/
-dist/
 coverage/
+.npm/
+.pnpm-store/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.eslintcache
+*.tsbuildinfo
+.vite/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
 
 # Secretos y temporales
 .env
 .env.*
 !.env.example
+!.env.sample
+!.env.template
+!.env.*.example
 credentials.*
 secrets.*
+!credentials.example
+!credentials.example.*
+!credentials.*.example
+!secrets.example
+!secrets.example.*
+!secrets.*.example
+*.key
+*.p12
+*.pfx
+*-private.pem
 *.log
 *.tmp
+*.temp
 *.bak
+~$*
+.~lock.*#
 .DS_Store
+._*
 Thumbs.db
+Desktop.ini
+
+# Dependencias y artefactos JAR deliberados si se conservan.
+!**/*.jar
